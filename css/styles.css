@@ -2932,6 +2932,21 @@ img.u-pull-left {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 }
+.list-block__item.flew{
+    background: linear-gradient(to bottom, #000000, #1f1f1f) !important;
+    border: 2px solid #252525;
+}
+.flew h3{
+    display: flex;
+    align-self: center;
+    gap: 6px;
+}
+.flew h3 img{
+    height: 24px;
+    width: 24px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 .detailbvt a{
     
