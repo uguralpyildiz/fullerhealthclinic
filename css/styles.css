@@ -3508,7 +3508,16 @@ img.u-pull-left {
     bottom              : 0;
     left                : auto;
 }
-
+.ab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #adcaff;
+    box-shadow: 0 0 50px #00000020;
+}
+.ab .btn{
+    margin: 0;
+}
 .s-intro__bg::before {
     display        : block;
     content        : "";
@@ -3965,7 +3974,13 @@ img.u-pull-left {
     padding-top      : var(--vspace-5);
     padding-bottom   : var(--vspace-5);
 }
-
+.post-containers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto
+}
 /* ------------------------------------------------------------------- 
  * ## bricks masonry 
  * ------------------------------------------------------------------- */
