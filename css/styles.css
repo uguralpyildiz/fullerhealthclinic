@@ -4417,11 +4417,12 @@ img.u-pull-left {
     display       : inline-block;
     min-height    : var(--vspace-2);
     margin-bottom : var(--vspace-0_625);
-    padding-left  : calc(2.25 * var(--space));
+   
     position      : relative;
 }
 
 .s-testimonials__avatar {
+    display: none;
     width         : var(--vspace-1_75);
     height        : var(--vspace-1_75);
     border-radius : 100%;
